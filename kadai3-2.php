@@ -1,8 +1,7 @@
 <?php
 function f($a, $b)
 {
-    $a = 2;
-    $b = 3;
-    $retrun = $a + $b;
+    $result = $a + $b;
+    return $result;
 }
-echo f($a + $b);
+echo f(2, 3);
